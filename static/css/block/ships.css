@@ -1,0 +1,192 @@
+.ships-plus-card {
+    width: 350px;
+    height: 240px;
+    background: #FFFFFF;
+    border: 3px dashed #DBA833;
+    border-radius: 30px;
+    text-align: center
+}
+.ships-plus-card-img{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+.ships-plus-card-img:nth-child(2){
+    padding-top: 0px ;
+}
+
+
+.ships-plus-card p{
+    font-weight: 400 !important;
+    font-size: 20px!important;
+    line-height: 24px!important;
+    color: #DBA833!important;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ships-plus-cards {
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(auto-fill, 350px);
+    width: 100%;
+    max-width: 1130px; /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 40px; /* Отступ между колонками */
+    row-gap: 20px; /* Отступ между рядами */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+   
+}
+
+.ships-plus h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #DBA833;
+    margin-top: 120px;
+}
+
+.ships-plus p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #5B5B5B;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ships-plus h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #DBA833;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+
+.ships-plus {
+    text-align: center;
+}
+
+.usage {
+    max-width: 1650px;
+    height: auto;
+}
+.usage-img-card {
+    max-width: 600px;
+    height: auto;
+
+}
+
+.usage-img-card-center {
+    max-width: 388px;
+    height: auto;
+
+}
+
+.usage-img-card-center img{
+    background-size: contain;
+}
+
+.usage-img {
+    display: flex;
+    max-width: 1650px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.nefte-kor-img {
+    max-width: 1920px;
+    background-size: cover;
+    background-image: url(/static/img/nefte-kor.png);
+    height: 450px;
+}
+
+.nefte-kor-img-text h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.nefte-kor-img-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #ffffff;
+}
+.nefte-kor-img-text button{
+    width: 288px;
+    height: 45px;
+    background: #DBA833;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nefte-kor-img-text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    height: auto;
+    padding-top: 140px;
+}
+
+@media(max-width:550px){
+    .ships-plus h2 {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+    .ships-plus p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+@media(max-width:400px){
+    .ships-plus-card{
+        width: 300px ;
+        height: auto;
+    }
+    .ships-plus h2 {
+        font-size: 37px;
+        line-height: 40px;
+    }
+}
