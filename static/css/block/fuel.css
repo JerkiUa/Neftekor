@@ -6,14 +6,14 @@
     text-align:center;
 }
 .fuel-left {
-    background-image: url(../fuel-left.png) !important;
+    background-image: url(../fuel-left.png) ;
     width: 960px;
     height: 800px;
     background-position:center center;
     background-size:cover;
 }
 .fuel-right{
-    background-image: url(../fuel-right.png) !important;
+    background-image: url(../fuel-right.png) ;
     width: 960px;
     height: 800px;
     transform: rotate(180deg);
