@@ -5,14 +5,14 @@
     margin-right: auto;
 }
 .fuel-left {
-    background-image: url(../fuel-left.png);
+    background-image: url(../fuel-left.png) !important;
     width: 960px;
     height: 800px;
     background-position:center center;
     background-size:cover;
 }
 .fuel-right{
-    background-image: url(../fuel-right.png);
+    background-image: url(../fuel-right.png) !important;
     width: 960px;
     height: 800px;
     transform: rotate(180deg);
@@ -26,7 +26,7 @@
     display: flex;
 }
 .fuel-bottom {
-    background-image: url(../fuel-3.png);
+    background-image: url(../fuel-3.png) !important;
     width: 100%;
     height: 100%;
     background-position:center center;
