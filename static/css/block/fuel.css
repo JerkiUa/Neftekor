@@ -3,6 +3,7 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    text-align:center;
 }
 .fuel-left {
     background-image: url(../fuel-left.png) !important;
