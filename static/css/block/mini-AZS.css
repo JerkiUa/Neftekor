@@ -1,0 +1,293 @@
+.mini-AZS-card {
+    width: 350px;
+    height: 240px;
+    background: #FFFFFF;
+    border: 3px dashed #DBA833;
+    border-radius: 30px;
+    text-align: center
+}
+
+.mini-AZS-card img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mini-AZS-card p{
+    font-weight: 400 !important;
+    font-size: 20px!important;
+    line-height: 24px!important;
+    color: #DBA833!important;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-AZS-cards {
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(auto-fill, 350px);
+    width: 100%;
+    max-width: 1130px; /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 40px; /* Отступ между колонками */
+    row-gap: 20px; /* Отступ между рядами */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+   
+}
+
+.benefit h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #DBA833;
+    margin-top: 120px;
+}
+
+.benefit p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #5B5B5B;
+}
+
+.examples-mini-AZS h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #DBA833;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.examples-mini-AZS {
+    text-align: center;
+    height: 1220px;
+}
+
+.sertificat-cards {
+    height: auto;
+    background: #F8F8F8;
+    border: 3px dashed #DBA833;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, 350px);
+    width: 100%;
+    max-width: 1230px; /* Ширина grid-контейнера */
+    justify-items: center; /* Размещаем карточку по центру */
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.sertificat-cards img{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.sertificat-cards img:nth-child(1){
+    margin-top: 30px;
+}
+.sertificat-cards img:nth-child(2){
+    margin-top: 30px;
+}
+.sertificat-cards img:nth-child(3){
+    margin-top: 30px;
+}
+
+.sertificat h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #DBA833;
+    margin-top: 120px;
+
+}
+.sertificat p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #5B5B5B;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.examples-AZS {
+    background-image: url(../examples-AZS.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width:750px){
+    .benefit h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .benefit p {
+        font-size: 20px;
+    }
+    .examples-mini-AZS h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .sertificat h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .sertificat p {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:500px){
+    .benefit h2 {
+        font-size: 34px;
+        line-height: 35px;
+    }
+    .benefit p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .mini-AZS-card {
+        width: 300px;
+        height: 210px;
+    }
+    .mini-AZS-card img{
+        width: 90px;
+        height: 110px;
+    }
+    .mini-AZS-card p{
+        max-width: 270px;
+    }
+    .mini-AZS-card {
+        width: 280px;
+    }
+    .examples-mini-AZS h2 {
+        font-size: 34px;
+        line-height: 35px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    .sertificat h2 {
+        font-size: 34px;
+        line-height: 35px;
+    }
+    .sertificat p {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .sertificat-cards img{
+        width: 230px;
+        height: 350px;
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    .sertificat-cards {
+        margin-right: 20px !important;
+        max-width: 390px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:400px){
+    .benefit h2 {
+        font-size: 30px;
+    }
+    .examples-mini-AZS h2 {
+        font-size: 28px;
+    }
+    .sertificat h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .sertificat-cards {
+        margin-right: 20px !important;
+        width: 270px;
+    }
+}
+
+@media(max-width:1064px){
+    .examples-mini-AZS {
+        height: 1000px;
+    }
+}
+
+@media(max-width:832px){
+    .examples-mini-AZS {
+        height: 850px;
+    }
+    
+}
+@media(max-width:732px){
+    .examples-mini-AZS {
+        height: 750px;
+    }
+}
+@media(max-width:632px){
+    .examples-mini-AZS {
+        height: 650px;
+    }
+}
+@media(max-width:532px){
+    .examples-mini-AZS {
+        height: 550px;
+    }
+}
+@media(max-width:432px){
+    .examples-mini-AZS {
+        height: 450px;
+    }
+}
+@media(max-width:432px){
+    .examples-mini-AZS {
+        height: 450px;
+    }
+}
+@media(max-width:402px){
+    .examples-mini-AZS {
+        height: 420px;
+    }
+}
+@media(max-width:382px){
+    .examples-mini-AZS {
+        height: 400px;
+    }
+}
+@media(max-width:362px){
+    .examples-mini-AZS {
+        height: 380px;
+    }
+}
+@media(max-width:342px){
+    .examples-mini-AZS {
+        height: 360px;
+    }
+}
+@media(max-width:322px){
+    .examples-mini-AZS {
+        height: 340px;
+    }
+}
