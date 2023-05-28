@@ -1,0 +1,195 @@
+.contact {
+    max-width: 1200px;
+    height: 480px;
+    background: #FFFFFF;
+    border: 3px dashed #DBA833;
+    border-radius: 41px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.contact-form {
+    max-width: 600px;
+    height: auto;
+}
+
+.contact-adres {
+    max-width: 250px;
+    height: auto;
+}
+
+.contact-adres p{
+    padding-top: 15px;
+    border-bottom: 1px solid #B6B6B6;
+
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.contact-form:nth-child(2)
+.contact-adres
+{
+    bottom: none;
+}
+
+.furnace-card:nth-child(2) .furnace-card-img{
+    padding-top: 0px ;
+}
+
+.name {
+    width: 245px;
+    height: 44px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-right: 20px;
+}
+
+.compani {
+    width: 245px;
+    height: 44px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.name-compani{
+    display: flex;
+    max-width: 510px;
+    justify-content: space-between;
+}
+
+.mail-tel {
+    width: 496px;
+    height: 44px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.contact-form-btn {
+    width: 510px;
+    height: 44px;
+    border: 2px solid #DBA833;
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    margin-top: 25px;
+    }
+
+.contact-flex {
+    display: flex;
+    max-width: 1060px;
+    height: auto;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+
+@media(max-width:930px){
+    .contact-form {
+        width: 530px;
+    }
+}
+
+@media(max-width:870px){
+    .contact-flex {
+        display: block;
+        text-align: center;
+    }
+    .name-compani {
+        display: block;
+        margin-right: 0 !important;
+        text-align: center;
+        margin-left: 10px;
+
+    }
+    .name {
+        width: 502px;
+        margin-top: 30px;
+    }
+    .compani {
+        width: 502px;
+        margin-top: 20px;
+    }
+    .contact {
+        height: auto;
+        text-align: center;
+        margin-left: 15px; 
+        margin-right: 15px;
+    }
+    .contact-adres {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:590px){
+
+
+    .name {
+        width: 302px;
+        margin-top: 30px;
+    }
+    .compani {
+        width: 302px;
+        margin-top: 20px;
+    }
+    .contact {
+        height: auto;
+        text-align: center;
+    }
+    .contact-adres {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mail-tel {
+        width: 293px;
+    }
+    .name-compani {
+        width: 302px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .contact-form {
+        width: 302px;
+    }
+}
+
+@media(max-width:380px){
+
+
+    .name {
+        width: 222px;
+        margin-top: 30px;
+    }
+    .compani {
+        width: 222px;
+        margin-top: 20px;
+    }
+    .contact {
+        height: auto;
+        text-align: center;
+    }
+    .contact-adres {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mail-tel {
+        width: 213px;
+    }
+    .name-compani {
+        width: 222px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .contact-form {
+        width: 222px;
+    }
+}
